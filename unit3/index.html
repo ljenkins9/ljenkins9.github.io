@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dynamic Gallery</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1> Dynamic Gallery </h1>
+  </header>
+
+  <main>
+    <p> Resize the browser window to change the images. </p>
+
+    <hr/>
+
+    <h2> Vehicles </h2>
+
+    <picture>
+      <source media="(min-width:769px)" srcset="images/semitruck.jpg" width="200" height="200">
+      <source media="(min-width:426px)" srcset="images/pickuptruck.jpg" width="200" height="200">
+      <source media="(min-width:321px)" srcset="images/car.jpg" width="200" height="200">
+      <img src="images/bike.jpg" alt="Vehicles" width="200" height="200">
+    </picture>
+
+    <hr/>
+
+    <h2> Dogs </h2>
+
+    <picture>
+      <source media="(min-width:769px)" srcset="images/newfoundland.jpg" width="200" height="200">
+      <source media="(min-width:426px)" srcset="images/great_dane.jpg" width="200" height="200">
+      <source media="(min-width:321px)" srcset="images/italian_greyhounds.jpg" width="200" height="200">
+      <img src="images/chihuahua.jpg" alt="Dogs" width="200" height="200">
+    </picture>
+
+    <hr/>
+
+    <h2> Beds </h2>
+
+    <picture>
+      <source media="(min-width:769px)" srcset="images/king_size_bed.jpg" width="200" height="200">
+      <source media="(min-width:426px)" srcset="images/full_size_bed.jpg" width="200" height="200">
+      <source media="(min-width:321px)" srcset="images/single_size_bed.jpg" width="200" height="200">
+      <img src="images/folding_bed.jpg" alt="Beds" width="200" height="200">
+    </picture>
+
+    <hr/>
+  </main>
+
+  <footer>
+    <p> &copy;<i>2023 Logan Jenkins</i> </p>
+  </footer>
+  
+</body>
+
+</html>
