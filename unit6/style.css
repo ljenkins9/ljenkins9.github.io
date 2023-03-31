@@ -1,0 +1,34 @@
+body, html {
+  height: 100%;
+}
+
+.fish {
+    height: 300px;
+}
+
+main {
+  background-color: darkblue;
+  color: white;
+}
+
+body {
+  background-image: url("images/Underwater.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-image: url("images/smallfish.png");
+}
+
+.specialborder {
+  border: 20px solid;
+  border-image: url("images/yellowborder.png") 30 stretch;
+}
